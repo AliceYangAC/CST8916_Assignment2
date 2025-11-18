@@ -108,8 +108,6 @@ Compare the three CSPs across these categories:
 
 ### 5. Conclusion (5%)
 
-- Summary of findings and overall recommendations
-
 AWS, Azure, and GCP have similarities and differences across REST/GraphQL/WebSocket API services, data streaming services, and stream analytics services. AWS' strength lies in its large and mature ecosystem, where you can integrate any API into their API Gateway and handle data streaming and streaming analytics via Kinesis. Azure shines within enterprise contexts that are already tightly integrated with Microsoft's suite of services, and they are notable for having a specific fully managed Stream Analytics services that integrates easily with ingestion services like Event Hubs or IoT Hubs. GCP demonstrates their prowess in their cutting edge, AI-powered analytics suite across Pub/Sub (ingestion), Dataflow (stream processing), and BigQuery. (insights) In summary, AWS would be best for general purpose real time streaming, particularly if you in in a highly regulated industry. Azure would be ideal if the organization is already integrated with Microsoft services or if the organization is seeking an out of the box "data detective" stream analytics service. Finally, GCP should be chosen if they are pursuing AI-powered analytics pipelines.
 
 ### 6. References
