@@ -20,27 +20,23 @@ As previously mentioned, two hypothetical use cases will be explored to contextu
 
 #### Purpose & Scope
 
-This assignment will help us understand the differences and similarities between the three major CSPs (AWS, Azure, GCP) and the services they offer for building and deploying remote data and real-time application solutions. The scope of this assignment covers the various remote data and real-time application contexts we explored in class over the past semester:
+This assignment will help us understand the differences and similarities between the three major CSPs (AWS, Azure, GCP) and the services they offer for building and deploying remote data and real-time application solutions. As a result, organizations can parse the best CSP based on their strengths and weaknesses for their use case. The scope of this assignment covers the various remote data and real-time application contexts we explored in class over the past semester:
 
-- Remote data: IoT, other distributed systems
-- Real-time communication: WebSockets, data streaming pipelines, event-driven architecture, edge computing
+- Remote data: IoT, etc
+- Real-time communication: WebSockets, MQTT, data streaming pipelines, event-driven architecture, etc.
 
 #### Overview: AWS, Azure, GCP
 
 1. AWS:
-Compared to the other two CSPs, AWS stands out as the most mature CSP that holds the largest market share. If an organizations wants a comprehensive and flexible list of solutions, they should consider AWS first.
+Compared to the other two CSPs, AWS stands out as the most mature CSP that holds the largest market share. They also offer the widest portfolio of services and cloud regional datacenters. If an organizations wants a comprehensive and flexible list of solutions with extremely flexible availability, they should consider AWS first.
 2. Azure:
-Azure is integrated closely within Microsoft's ecosystem, so their services are particular ideal for organizations that already use Microsoft tools like their Office suite.
+Azure is integrated closely within Microsoft's ecosystem, so their services are particularly ideal for organizations that already use Microsoft tools like their Office suite. In addition, Microsoft heavily targets their services to enterprise organizations that may not be too technically skilled, so organizations that require ease-of-use for cloud services should consider Microsoft.
 3. GCP:
-GCP highlights Google's prowess in data analytics, AI, and open source development practices. Organizations that prioritize the most bleeding edge analytics tools should look to GCP for their remote data needs.
+GCP highlights Google's prowess in data analytics, AI, and open source development practices. Organizations that prioritize the most bleeding edge analytics tools should look to GCP for their remote data needs. Startups and organizations with strong innovative initiatives would find helpful services with GCP.
 
 ### 3. Service Comparison (60%)
 
 Compare the three CSPs across these categories:
-
-- Amazon Kinesis Data Streams [1]: This service allows users "to collect and process large streams of data records in real time" and create Kinesis applications from it. From there, you can use processed records to display on dashboards, generate alerts, dynamically trigger changes in other services, or forward data to other services.
-- AWS Lambda [2]: This service allows users to run "code without the need to manage servers." Its real-time use case includes the ability to "process real-time data streams for analytics and monitoring" and "handle...IoT...requests."
-- AWS IoT [3]: This service "provides the cloud services that connect your IoT devices to other devices and AWS cloud services." In particular, AWT IoT Core helps "manage and support...IoT devices in the field" over MQTT/WSS and LoRaWAN (low-power long-range Wide Area Network)devices
 
 **a) RESTful API Services (15%)**
 
